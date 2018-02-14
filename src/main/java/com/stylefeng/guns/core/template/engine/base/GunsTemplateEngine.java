@@ -59,6 +59,7 @@ public abstract class GunsTemplateEngine extends AbstractTemplateEngine {
         }else{
             filePath = filePath.replaceAll("/+|\\\\+","\\\\");
         }
+        filePath = "/Users/wind/Downloads/codegen";
         File file = new File(filePath);
         File parentFile = file.getParentFile();
         if(!parentFile.exists()){
